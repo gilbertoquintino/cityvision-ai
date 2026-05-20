@@ -78,7 +78,5 @@ cityvision-ai/
 6. **Fase 6: Avaliação de Modelos**: Execução de benchmarks para determinar o melhor modelo local custo-benefício.
 
 ## 👥 Integrantes da Equipe
-- **Membro 1**: [Nome / GitHub / Função]
-- **Membro 2**: [Nome / GitHub / Função]
-- **Membro 3**: [Nome / GitHub / Função]
-- **Membro 4**: [Nome / GitHub / Função]
+- **Membro 1**: Gilberto Quintino de Santana Filho/ GitHub: gilbertoquintino
+- **Membro 2**: Thayna Anália dos Santos/ GitHub: 
