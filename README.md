@@ -79,4 +79,4 @@ cityvision-ai/
 
 ## 👥 Integrantes da Equipe
 - **Membro 1**: Gilberto Quintino de Santana Filho/ GitHub: gilbertoquintino
-- **Membro 2**: Thayna Anália dos Santos/ GitHub: 
+- **Membro 2**: Thayna Anália dos Santos/ GitHub: thayanalira
