@@ -15,9 +15,7 @@ O planejamento de cidades modernas exige a consideração de múltiplos fatores 
 - **LM Studio**: Hospedagem local de Modelos de Linguagem de Grande Porte (LLMs) para privacidade, custo zero de tokens e testes controlados.
 - **Python 3.10+**: Linguagem base para execução do sistema.
 - **Modelos LLM**: Modelos locais integrados via API compatível com OpenAI fornecida pelo LM Studio.
-  - **Destaque em Aula**: **GPT-OSS 20B**, referenciado como o modelo principal para testes robustos de raciocínio lógico e conformidade de instruções.
-  - **Limitações de Compatibilidade**: O modelo **Nvidia Nemotron** apresentou incompatibilidades com o framework AutoGen nos testes de chamada de funções.
-  - **Trade-off de Desempenho**: Modelos menores como o **Gemma 4B** (ou equivalentes) oferecem processamento rápido (mais tokens por segundo), mas entregam menor qualidade de resposta e maior taxa de desvios de persona.
+   - **Modelo escolhido Gemma 3B**: Modelo menore oferece processamento rápido (mais tokens por segundo), mas entregam menor qualidade de resposta e maior taxa de desvios de persona.
 
 ## 👥 Estrutura de Agentes
 O ecossistema é formado por 8 agentes obrigatórios:
@@ -79,4 +77,4 @@ cityvision-ai/
 
 ## 👥 Integrantes da Equipe
 - **Membro 1**: Gilberto Quintino de Santana Filho/ GitHub: gilbertoquintino
-- **Membro 2**: Thayna Anália dos Santos/ GitHub: thayanalira
+- **Membro 2**: Thayana Anália dos Santos/ GitHub: thayanalira
