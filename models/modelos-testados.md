@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **Especificações do Ambiente de Desenvolvimento (Hardware)**:
 > Os testes de desempenho e a escolha do modelo foram realizados localmente no computador de desenvolvimento com a seguinte especificação:
-> - **Dispositivo**: Samsung Book4 360 (Book4-360-Gilberto)
+> - **Dispositivo**: Samsung Book4 360
 > - **Processador**: Intel(R) Core(TM) 5 120U (1.40 GHz)
 > - **Memória RAM Instalada**: 16,0 GB LPDDR5 (Velocidade: 6000 MT/s)
 > - **Placa de Vídeo (GPU)**: Intel(R) Graphics (128 MB VRAM dedicada / memória compartilhada do sistema)
