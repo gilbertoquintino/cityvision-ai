@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# AutoGen cache
+.cache/
+
+# Local configuration / user files
+.env
+.venv
+env/
+venv/
+ENV/

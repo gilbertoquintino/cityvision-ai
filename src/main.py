@@ -156,6 +156,7 @@ def main():
     manager = autogen.GroupChatManager(
         groupchat=groupchat,
         llm_config=llm_config,
+        name="Equipe_CityVision_AI",
     )
 
     print("\nIniciando o debate do projeto CityVision AI...")
