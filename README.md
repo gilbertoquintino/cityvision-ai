@@ -15,7 +15,8 @@ O planejamento de cidades modernas exige a consideração de múltiplos fatores 
 - **LM Studio**: Hospedagem local de Modelos de Linguagem de Grande Porte (LLMs) para privacidade, custo zero de tokens e testes controlados.
 - **Python 3.10+**: Linguagem base para execução do sistema.
 - **Modelos LLM**: Modelos locais integrados via API compatível com OpenAI fornecida pelo LM Studio.
-   - **Modelo escolhido Gemma 3B**: Modelo menore oferece processamento rápido (mais tokens por segundo), mas entregam menor qualidade de resposta e maior taxa de desvios de persona.
+   - **Modelo Adotado**: **Qwen2.5-7B-Instruct-GGUF** (especificamente o quantizado `Q4_K_M` de 4.68 GB), selecionado pelo excelente equilíbrio entre capacidade de raciocínio, aderência à persona e consumo de memória extremamente eficiente.
+   - **Histórico de Testes**: A equipe testou inicialmente o **GPT-OSS 20B** como referência, contudo, seu alto consumo de recursos computacionais (>16GB VRAM) inviabilizou a execução estável em hardware intermediário de desenvolvimento pessoal.
 
 ## 👥 Estrutura de Agentes
 O ecossistema é formado por 8 agentes obrigatórios:

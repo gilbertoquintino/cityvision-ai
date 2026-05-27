@@ -15,7 +15,9 @@ LM_STUDIO_BASE_URL = "http://localhost:1234/v1"
 LM_STUDIO_API_KEY = "not-needed" # LM Studio local não exige chave de API ativa
 
 # Configuração do Modelo carregado
-MODEL_NAME = "llama-3-8b-instruct" # Nome do modelo ativo no LM Studio
+# Qwen2.5-7B-Instruct-GGUF foi o modelo adotado por apresentar o melhor equilíbrio 
+# entre desempenho cognitivo e estabilidade em hardware intermediário (16GB RAM / GPU integrada).
+MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct-GGUF" # Nome do modelo ativo no LM Studio
 
 # Parâmetros de Inferência
 TEMPERATURE = 0.7
