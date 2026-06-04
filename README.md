@@ -33,49 +33,51 @@ O ecossistema é formado por 8 agentes obrigatórios:
 ## 📂 Organização de Pastas
 ```text
 cityvision-ai/
-├── README.md                  # Este arquivo com a visão geral do projeto
+├── README.md                  # Visão geral do projeto e guia de leitura
+├── .gitignore                 # Arquivo de exclusões para Git (ignora caches e pycaches)
 ├── docs/                      # Documentação detalhada do projeto
 │   ├── projeto-geral.md       # Escopo, problemas e objetivos gerais
 │   ├── arquitetura.md         # Integração AutoGen, LM Studio e LLMs
 │   ├── fluxo-agentes.md       # Dinâmica de conversa e turnos dos agentes
-│   └── apresentacoes/         # Materiais de apresentação e pitches
-├── agents/                    # Definição e diretrizes dos agentes de IA
-│   ├── [nome-do-agente]/
-│   │   ├── system-message.md  # Instrução de sistema (System Prompt)
-│   │   ├── personality.md     # Tom, linguagem e vieses técnicos
-│   │   └── prompts.md         # Registro de prompts de teste e finais
-├── prompts/                   # Repositório de briefings e testes de execução
-│   ├── briefing-inicial.md    # Briefing de entrada do cliente
-│   ├── testes.md              # Roteiros de testes com prompts
-│   └── prompts-finais.md      # Prompts finais consolidados
-├── evidencias/                # Registros visuais e textuais do funcionamento
-│   ├── configuracao-modelos/  # Prints e configs do LM Studio
-│   ├── testes/                # Resultados de testes parciais
-│   ├── execucoes/             # Logs brutos de debates
-│   └── resultados/            # Relatórios finais gerados
+│   ├── reflexoes.md           # Relatório acadêmico de reflexões e autoavaliação
+│   └── apresentacoes/         # Vídeo pitch de demonstração e PDF da apresentação
+├── agents/                    # Definição e diretrizes dos agentes de IA (Prompts)
+│   ├── [nome-do-agente]/      # Pastas para os 8 agentes especialistas
+│   │   ├── system-message.md  # Instrução de sistema principal (System Prompt em Inglês)
+│   │   ├── personality.md     # Guia de tom, linguagem, restrições e vieses (Inglês)
+│   │   └── prompts.md         # Registro histórico de testes de engenharia de prompts
+├── prompts/                   # Repositório de briefings e roteiros de teste
+│   ├── briefing-inicial.md    # Briefing original do cliente em linguagem natural
+│   ├── testes.md              # Roteiros e variações de testes com prompts
+│   └── prompts-finais.md      # Registro consolidado dos prompts reais executados
+├── evidencias/                # Comprovações físicas e visuais da execução
+│   ├── simulacao-local/       # Capturas de tela (LM Studio, Hardware e AutoGen Studio)
+│   ├── execucoes/             # Transcrições completas em markdown dos debates reais
+│   └── resultados/            # Relatórios executivos finais gerados pelos agentes
 ├── models/                    # Estudo e avaliação dos modelos de LLM
-│   ├── modelos-testados.md    # Tabela comparativa de modelos testados
-│   └── benchmark.md           # Critérios de avaliação
-├── src/                       # Código-fonte Python do sistema
-│   ├── main.py                # Entrada principal do sistema
-│   ├── agents.py              # Declaração dos agentes AutoGen
-│   ├── config.py              # Variáveis de ambiente e portas do LM Studio
-│   └── utils.py               # Funções de suporte e exportação
-├── logs/                      # Pasta para arquivos de log gerados em tempo de execução
+│   ├── modelos-testados.md    # Tabela comparativa e especificações físicas de hardware
+│   └── benchmark.md           # Critérios de pontuação e peso dos testes
+├── src/                       # Código-fonte Python para execução autônoma (CLI)
+│   ├── main.py                # Arquivo principal (GroupChat e orquestração customizada)
+│   ├── agents.py              # Instanciação dos agentes via biblioteca pyautogen
+│   ├── config.py              # Parâmetros de inferência e conexão do LM Studio
+│   └── utils.py               # Rotinas auxiliares (leitura, escrita e logs)
+├── logs/                      # Registro histórico das simulações locais executadas
 └── referencias/               # Material teórico de apoio e pesquisa
     ├── artigos/
     ├── links/
     └── materiais-aula/
 ```
 
-## 🚀 Como o Projeto Será Evoluído
-1. **Fase 1: Concepção e Setup**: Definição da estrutura de pastas, personas de agentes e instalação do ambiente (Concluído).
-2. **Fase 2: Engenharia de Prompts**: Refinamento de prompts e system messages individuais.
-3. **Fase 3: Integração Local**: Conexão do AutoGen com o LM Studio local e validação de comunicação.
-4. **Fase 4: Simulações**: Execução de debates com o briefing inicial e refinamento de parâmetros de temperatura/contexto.
-5. **Fase 5: Consolidação**: Ajuste do agente Apresentador para entregar relatórios formatados em Markdown.
-6. **Fase 6: Avaliação de Modelos**: Execução de benchmarks para determinar o melhor modelo local custo-benefício.
+## 🚀 Fases de Desenvolvimento Concluídas
+O projeto foi executado e validado em sua totalidade de acordo com o seguinte cronograma de engenharia:
+1. **Fase 1: Concepção e Setup**: Criação da infraestrutura de diretórios, definição conceitual dos agentes especialistas e estruturação do Git.
+2. **Fase 2: Engenharia de Prompts**: Elaboração e tradução para o inglês das system messages e guias de persona, garantindo melhor desempenho cognitivo com restrição de saída para português.
+3. **Fase 3: Implementação de Código**: Desenvolvimento do script Python integrado ao framework `pyautogen`, incorporando uma rotina personalizada de seleção de oradores (Speaker Selection) para evitar desvios no debate.
+4. **Fase 4: Integração Local e Simulação**: Configuração da inferência no LM Studio com o modelo local estável **Qwen2.5-7B-Instruct-GGUF** e execução do debate interativo na plataforma do AutoGen Studio.
+5. **Fase 5: Extração e Consolidação de Resultados**: Gravação dos históricos de execução de debates reais nas pastas do projeto e extração do relatório final de revitalização portuária.
+6. **Fase 6: Relatório Acadêmico**: Análise crítica de conflitos (custos vs. orçamento, restrições ambientais vs. sociais) e preenchimento das reflexões exigidas no roteiro avaliativo.
 
 ## 👥 Integrantes da Equipe
-- **Membro 1**: Gilberto Quintino de Santana Filho/ GitHub: gilbertoquintino
-- **Membro 2**: Thayana Anália dos Santos/ GitHub: thayanalira
+- **Membro 1**: Gilberto Quintino de Santana Filho / GitHub: gilbertoquintino
+- **Membro 2**: Thayana Anália dos Santos / GitHub: thayanalira
