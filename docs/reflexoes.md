@@ -51,7 +51,9 @@ A análise prática da execução no AutoGen Studio sugere as seguintes otimiza�
 ---
 
 ### Evidências da Simulação Local
-* Imagem de setup do Hardware e LM Studio: ![Hardware Specs](file:///C:/Users/gilbe/.gemini/antigravity/scratch/cityvision-ai/evidencias/configuracao-modelos/hardware_specs.png)
-* Imagem do modelo carregado no LM Studio: ![Qwen2.5 Model Setup](file:///C:/Users/gilbe/.gemini/antigravity/scratch/cityvision-ai/evidencias/configuracao-modelos/qwen2.5_model_lmstudio.png)
-* Imagem do AutoGen Studio em execução: ![AutoGen Studio Playground](file:///C:/Users/gilbe/.gemini/antigravity/scratch/cityvision-ai/evidencias/testes/autogenstudio_session1.png)
-* Diagrama do Workflow da Equipe no AutoGen Studio: ![AutoGen Studio Workflow](file:///C:/Users/gilbe/.gemini/antigravity/scratch/cityvision-ai/evidencias/testes/autogenstudio_workflow.png)
+* **Especificações de Hardware**: ![Especificações de Hardware](../evidencias/simulacao-local/hardware_specs.png)
+* **Setup do Modelo no LM Studio**: ![Qwen2.5 Model Setup](../evidencias/simulacao-local/qwen2.5_model_lmstudio.png)
+* **Playground do AutoGen Studio (Sessão Iniciada)**: ![AutoGen Studio Playground 1](../evidencias/simulacao-local/autogenstudio_session1.png)
+* **Playground do AutoGen Studio (Visualização de Respostas)**: ![AutoGen Studio Playground 2](../evidencias/simulacao-local/autogenstudio_session2.png)
+* **Diagrama do Workflow de Agentes**: ![AutoGen Studio Workflow](../evidencias/simulacao-local/autogenstudio_workflow.png)
+* **Fluxo de Debate Bem-Sucedido**: ![Fluxo de Debate Bem Sucedido](../evidencias/simulacao-local/fluxo_bem_sucedido_autogen.png)
